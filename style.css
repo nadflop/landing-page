@@ -19,6 +19,10 @@ a {
     font-size: 18px;
 }
 
+p, h1 {
+    margin: 0;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -50,8 +54,8 @@ button {
     justify-content: center;
     align-items: center;
     gap: 120px;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .ads {
@@ -62,7 +66,6 @@ button {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    margin: 0;
 }
 
 .ads p {
@@ -86,6 +89,35 @@ button {
     align-items: center;
 }
 
+.section-2 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    
+}
+
+.random-img {
+    width: 200px;
+    margin: 0;
+}
+
+.random-img img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+}
 
 .footer {
     background-color: #1f2937;
