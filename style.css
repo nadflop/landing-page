@@ -19,8 +19,9 @@ a {
     font-size: 18px;
 }
 
-p, h1 {
+p, h1, h3 {
     margin: 0;
+    padding: 0;
 }
 
 button {
@@ -28,7 +29,7 @@ button {
     color: #f9faf8;
     border: none;
     border-radius: 5px;
-    padding: 6px 20px;
+    padding: 6px 25px;
 }
 
 .header {
@@ -54,8 +55,16 @@ button {
     justify-content: center;
     align-items: center;
     gap: 120px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.section-1 img {
+    background-color: #e5e7eb;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ads {
@@ -71,30 +80,17 @@ button {
 .ads p {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.section-1 img {
-    background-color: #e5e7eb;
-    width: 450px;
-    height: 200px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 10px;
 }
 
 .section-2 {
-    padding: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
 }
 
-.section-2 h2 {
+.content h2 {
     text-align: center;
     font-size: 36px;
     font-weight: extra-bold;
@@ -119,7 +115,54 @@ button {
     display: flex;
 }
 
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.quote {
+    width: 750px;
+}
+
+.word {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.banner {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    width: 900px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner button {
+    border: solid;
+    border-color: #f9faf8;
+}
+
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
 }
